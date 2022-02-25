@@ -16,6 +16,7 @@
 		94E401B627C9453C009F06D7 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E401B527C9453C009F06D7 /* UpcomingViewController.swift */; };
 		94E401B827C94552009F06D7 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E401B727C94552009F06D7 /* SearchViewController.swift */; };
 		94E401BA27C94570009F06D7 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E401B927C94570009F06D7 /* DownloadsViewController.swift */; };
+		94E401C127C94A0F009F06D7 /* CollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E401C027C94A0F009F06D7 /* CollectionTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		94E401B527C9453C009F06D7 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
 		94E401B727C94552009F06D7 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		94E401B927C94570009F06D7 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
+		94E401C027C94A0F009F06D7 /* CollectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,11 @@
 		94E4019D27C943FB009F06D7 /* Netflix Clone */ = {
 			isa = PBXGroup;
 			children = (
+				94E401BF27C949ED009F06D7 /* Managers */,
+				94E401BE27C949E5009F06D7 /* Resources */,
+				94E401BD27C949C9009F06D7 /* Models */,
+				94E401BC27C949BF009F06D7 /* ViewModels */,
+				94E401BB27C949B5009F06D7 /* Views */,
 				94E401B227C94510009F06D7 /* Controllers */,
 				94E4019E27C943FB009F06D7 /* AppDelegate.swift */,
 				94E401A027C943FB009F06D7 /* SceneDelegate.swift */,
@@ -82,6 +89,42 @@
 				94E401B927C94570009F06D7 /* DownloadsViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		94E401BB27C949B5009F06D7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				94E401C027C94A0F009F06D7 /* CollectionTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		94E401BC27C949BF009F06D7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		94E401BD27C949C9009F06D7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		94E401BE27C949E5009F06D7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		94E401BF27C949ED009F06D7 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +204,7 @@
 				94E401A127C943FB009F06D7 /* SceneDelegate.swift in Sources */,
 				94E401B627C9453C009F06D7 /* UpcomingViewController.swift in Sources */,
 				94E401B427C94524009F06D7 /* HomeViewController.swift in Sources */,
+				94E401C127C94A0F009F06D7 /* CollectionTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
